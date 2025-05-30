@@ -1,0 +1,13 @@
+name: "web-fastapi"
+version: "0.0.1"
+description: "FastAPI web service"
+author: "Layra"
+dependencies:
+  - "fastapi>=0.115"
+  - "uvicorn>=0.34"
+  - "pydantic>=2.11"
+  - "pydantic-settings>=2.9"
+  - "loguru>=0.7.3"
+default_variables:
+  python_version: "3.12"
+  project_description: "A FastAPI web service"
